@@ -48,8 +48,8 @@ form.addEventListener('submit', e => {
         return;
     }
 
-    console.log('Імʼя користувача: ', userEmailField.value);
-    console.log('Email користувача: ', userNameField.value);
+    console.log('Імʼя користувача: ', userNameField.value);
+    console.log('Пошта користувача: ', userEmailField.value);
 
     launchBtn.setAttribute('disabled', true);
     launchBtn.style.opacity = '0.7';
